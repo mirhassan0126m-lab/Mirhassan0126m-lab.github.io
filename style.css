@@ -1,0 +1,108 @@
+body { 
+  font-family: 'Great Vibes', cursive; 
+  margin: 0; 
+  padding: 0; 
+  background-image: linear-gradient(to bottom, #FFC0CB, #FFB6C1); 
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
+} 
+
+nav ul { 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  justify-content: space-between; 
+  background-color: #FF69B4; 
+  color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+nav a { 
+  color: #fff; 
+  text-decoration: none; 
+  padding: 1em; 
+} 
+
+nav a:hover { 
+  background-color: #FF99CC; 
+  border-radius: 5px; 
+  transform: scale(1.1); 
+  transition: all 0.2s ease-in-out; 
+} 
+
+nav a:active { 
+  background-color: #FF69B4; 
+  color: #fff; 
+} 
+
+#products, #shop, #login, #contact, #social-media, #signup { 
+  padding: 2em; 
+  background-color: #FFF5F5; 
+  margin: 2em; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+button { 
+  background-color: #FF69B4; 
+  color: #fff; 
+  padding: 1em 2em; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+} 
+
+button:hover { 
+  background-color: #FF99CC; 
+} 
+
+h1, h2 { 
+  color: #FF69B4; 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+a { 
+  color: #FF69B4; 
+} 
+
+a:hover { 
+  color: #FF99CC; 
+} 
+
+.product-grid { 
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 1em; 
+} 
+
+.product { 
+  background-color: #fff; 
+  padding: 1em; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+} 
+
+.product img { 
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 10px 10px 0 0; 
+} 
+
+.product h2 { 
+  margin-top: 0; 
+} 
+
+.product p { 
+  margin-bottom: 1em; 
+} 
+
+.logo {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF69B4;
+  font-family: 'Great Vibes', cursive;
+  padding: 0.5em;
+}
